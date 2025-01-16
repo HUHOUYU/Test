@@ -1,0 +1,12 @@
+h2 {
+    font-size: large;
+}
+#box {
+    background-color: red;
+}
+
+#box div {
+    background-color: pink;
+    width: 500px;
+    height: 300px;
+}
