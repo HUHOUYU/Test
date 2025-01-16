@@ -23,6 +23,12 @@
     },
     "scripts": {
         "prepare": "husky"
+    },
+    "lint-staged": {
+        "*.{js,vue}": [
+            "eslint --fix",
+            "prettier --write"
+        ]
     }
 }
 
