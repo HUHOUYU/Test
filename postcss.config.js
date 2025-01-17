@@ -3,6 +3,6 @@ module.export = {
     plugin: {
         tailwindcss: {},
         'postcss-preset-env': {},
-        'postcss-modules': {},
-    },
+        'postcss-modules': {}
+    }
 }

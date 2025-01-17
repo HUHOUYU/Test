@@ -1,12 +1,12 @@
 {
+    "printWidth": 160,
     "tabWidth": 4,
     "useTabs": false,
     "singleQuote": true,
-    "trailingComma": "all",
-    "endOfLine": "crlf",
-    "printWidth": 120,
-    "htmlWhitespaceSensitivity": "ignore",
     "semi": false,
+    "trailingComma": "none",
+    "arrowParens": "avoid",
     "bracketSpacing": true,
-    "arrowParens": "always"
+    "singleAttributePerLine": false,
+    "endOfLine": "crlf"
 }

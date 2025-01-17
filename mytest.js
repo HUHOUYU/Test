@@ -1,4 +1,7 @@
-const a = '1'
-const obj = { name: '小胡', age: 25 }
-function first() {}
-function test() {}
+const age = 16
+const myName = '小胡'
+let obj = {
+    name: 'snf',
+    age: 17
+}
+console.log(age, myName, obj)
