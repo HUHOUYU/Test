@@ -1,9 +1,9 @@
-module.exports = {
-    plugins: ['stylelint-stylus'],
+export default {
+    extends: ['stylelint-config-standard'],
     overrides: [
         {
-            files: ['*.styl', '**/*.styl', '*.stylus', '**/*.stylus'],
-            customSyntax: 'postcss-styl'
+            files: ['*.scss', '**/*.scss'],
+            customSyntax: 'postcss-scss'
         },
         {
             files: ['*.vue', '**/*.vue'],

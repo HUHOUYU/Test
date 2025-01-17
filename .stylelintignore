@@ -1,0 +1,9 @@
+# .stylelintignore
+
+# 其他类型文件
+*.js
+*.json
+*.vue
+
+# 测试和打包目录
+/node_modules/
